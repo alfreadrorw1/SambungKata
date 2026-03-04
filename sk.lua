@@ -6,7 +6,7 @@ local Player = Players.LocalPlayer
 -- ==========================================
 -- 1. CONFIG & DATABASE
 -- ==========================================
-local CLOUD_CSV_URL = "https://raw.githubusercontent.com/alfreadrorw1/SambungKata/main/kbbi.csv"
+local CLOUD_CSV_URL = "https://raw.githubusercontent.com/alfreadrorw1/SambungKata/main/alfread.csv"
 local KBBI_DATA, UsedWords, CurrentWordList = {}, {}, {}
 local BotSpeed, LastTarget, AutoAnswer, ActiveMode, LengthFilter = 10, "", false, "Normal", 0
 local IsTyping = false
